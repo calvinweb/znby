@@ -1,8 +1,13 @@
+
 void pwm(int pin, int pos ) {
   digitalWrite(pin, 1);
   delayMicroseconds(pos);
   digitalWrite(pin, 0);
   delay(20);
+
+}
+void to(p) {
+case 1:
 
 }
 void up(int pin) {
@@ -13,8 +18,9 @@ void dowm(int pin) {
 }
 void swi(byte bin) {
   switch (bin) {
-
     case 6:
       up
+    case 15:
+
   }
 }
