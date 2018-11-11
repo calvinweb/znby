@@ -1,4 +1,10 @@
 
+void setup(){
+pinMode(2,INPUT);
+pinMode(3,OUTPUT);
+pinMode(4,OUTPUT);
+
+}
 void pwm(int pin, int pos ) {
   digitalWrite(pin, 1);
   delayMicroseconds(pos);
@@ -10,7 +16,9 @@ void to(p) {
 case 1:
 
 }
-void bph
+void bph(){
+
+}
 void up(int pin) {
   pwm(pin , 1700);
 }
