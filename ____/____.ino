@@ -10,6 +10,7 @@ void to(p) {
 case 1:
 
 }
+void bph
 void up(int pin) {
   pwm(pin , 1700);
 }
